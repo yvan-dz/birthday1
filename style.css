@@ -338,6 +338,7 @@ footer div a {
         font-size: 1rem;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         animation: pulse 1s infinite alternate;
+        margin-left: 25px;
     }
 }
 
@@ -348,6 +349,9 @@ footer div a {
     .social-icons a i {
         font-size: 2rem; /* Reduce icon size on small screens */
     }
+    #quiz h2{
+        margin-bottom: 1%;
+     }
 }
 
 /* Media query for very small screens (max-width: 576px for smartphones) */
@@ -447,3 +451,5 @@ footer div a {
 #mood-playlist a:hover {
     color: #0056b3;
 }
+
+
